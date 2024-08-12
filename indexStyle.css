@@ -1,0 +1,49 @@
+*{
+    text-align: center;
+    background-color: thistle;
+}
+
+
+h1{
+    color:blanchedalmond;
+    font-size: larger;
+    background-color: rgb(11, 6, 6);
+    text-decoration: white underline;
+}
+
+h2{
+    color:crimson;
+    background-color: seashell;
+}
+
+button{
+    background-color: rgb(11, 6, 6);
+    color: blanchedalmond;
+    font-size: larger;
+}
+
+a{
+    color:darkred;
+    text-decoration: none;
+}
+
+p{
+    font-family: cursive;
+}
+
+form{
+    background-color: rgb(11, 6, 6);
+    color: blanchedalmond;
+    font-size: larger;
+}
+
+
+/* .one{
+    background-color: rgb(11, 6, 6);
+    color: blanchedalmond;
+    font-size: larger;
+} */
+
+/* #title{
+    font-weight: bolder;
+} */
