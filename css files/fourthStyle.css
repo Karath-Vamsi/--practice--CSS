@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap-reverse; */
+    align-items: flex-start;
+    /* align-content: flex-end; */
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+}
+
+#box3{
+    background-color: darkkhaki;
+    flex-grow: 2;
+    width: 400px;
+    align-self: center;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: slateblue;
+    align-self: flex-end;
+    flex-shrink: 0.5;
+}
+
+#lootbox{
+    background-color: lightsalmon;
+    color: red;
+    float: left;
+    font-size: large;
+    font-weight: bold;
+}
+
+@media(min-width:200px) and (max-width: 400px){
+    #lootbox{
+        background-color: lightseagreen;
+        color: white;
+        float: none;
+    }
+}
